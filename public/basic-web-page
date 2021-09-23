@@ -6,9 +6,18 @@
   document.getElementById('myDiv01').innerHTML = 'Hello World'
   ">
   
-  <input type=button value="1. Input/Output" onclick="{
+<input type=button value="1. Input/Output" onclick="{
     document.getELementById('myDiv01').innerHTML = 'Input adffgdsfsgsdfdfg<br>'
     +'sdfg<br>sdfg<br>output is...'
     }">
     
-    <div id="myDiv01">...</div>
+<input type=button value="4. Decisions" onclick="{
+   document.getElemtaryById('myDiv01').innerHTML =
+  Decisions use the if statement to make true
+  false variable decisions<br>
+<pre>
+if (hour < 18) {
+greetings = \'Good day\';
+}
+
+<div id="myDiv01">...</div>
